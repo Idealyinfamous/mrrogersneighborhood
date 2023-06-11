@@ -1,21 +1,5 @@
-//const input = document.querySelector("input");
-//const log = document.getElementById("quantity");
+//Takes a number from the input quantity
+let userInput = document.getElementById("quantity").value;
+console.log(userInput);
+//SUCCESS!!! tested in console! retrieves inputed number
 
-function talkRoger() {
-  let talkRoger = prompt("Howdy neighbor");
-  let speak = document.getElementById("#speak");
-  if (talkRoger >= 50) {
-    label.speak = "gO AWAY";
-  } else {
-    label.speak = " welcome beep boop";
-  }
-}
-let rogerButton = document.querySelector("button");
-rogerButton.addEventListener("click", talkRoger);
-
-//let inputNum = document.querySelector("input");
-// inputNum.addEventListener("input", updateValue);
-
-// function updateValue(e) {
-//   log.textContent = e.target.value;
-// }
